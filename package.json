@@ -1,0 +1,22 @@
+{
+  "name": "firmwareupdate-workshop",
+  "version": "1.0.0",
+  "description": "Connects to MQTT Broker and sends random data or lets device do certain things Maybe node-red flow => can be also started as container and I only have to prepare a flow.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevklinger/firmwareupdate-workshop.git"
+  },
+  "author": "Kevin Klinger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevklinger/firmwareupdate-workshop/issues"
+  },
+  "homepage": "https://github.com/kevklinger/firmwareupdate-workshop#readme",
+  "dependencies": {
+    "node-red": "^2.2.2"
+  }
+}
